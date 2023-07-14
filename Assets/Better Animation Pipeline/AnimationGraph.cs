@@ -37,7 +37,7 @@ namespace BetterAnimationPipeline
 
 		public Pose(AnimationStream? stream, IPlayable playable, int outputPort)
 		{
-			if (stream != null) this.stream = stream.Value; //TODO: de fato conectar esta bosta de alguma forma? Talvez não seja necessário no fim das contas eu acho, porque vai ter uma classe de Node específica pra AnimationJob
+			if (stream != null) this.stream = stream.Value;
 			Playable = playable;
 			OutputPort = outputPort;
 		}
