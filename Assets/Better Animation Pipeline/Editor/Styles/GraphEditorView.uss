@@ -1,0 +1,18 @@
+AnimationGraphEditorView {
+	flex-direction: column;
+	background: #f00;
+	flex: 1;
+}
+
+AnimationGraphEditorView #TitleBar {
+
+}
+
+AnimationGraphEditorView > #content {
+	flex: 1;
+	flex-direction: row;
+}
+
+AnimationGraphEditorView > #content > .graphView {
+	flex: 1;
+}

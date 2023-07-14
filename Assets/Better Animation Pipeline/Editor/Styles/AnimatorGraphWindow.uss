@@ -1,0 +1,5 @@
+AnimatorGraphView {
+    flex-direction: column;
+    background: #f00;
+    flex: 1;
+}

@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3bd9deeb6e3324b9075685108d387b, type: 3}
+  m_Name: AG_New
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7400000, guid: f24aa47263ec9422680819602494c334, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodes
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[BetterAnimationPipeline.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|BetterAnimationPipeline.MasterNode, Assembly-CSharp
+    - Name: outputPose
+      Entry: 6
+      Data: 
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: typeName
+      Entry: 1
+      Data: BetterAnimationPipeline.MasterNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - Name: slots
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[BetterAnimationPipeline.NodeSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 3|BetterAnimationPipeline.NodeSlot, Assembly-CSharp
+    - Name: nodeID
+      Entry: 3
+      Data: 0
+    - Name: slotID
+      Entry: 3
+      Data: 0
+    - Name: direction
+      Entry: 3
+      Data: 0
+    - Name: displayName
+      Entry: 1
+      Data: Pose
+    - Name: fieldName
+      Entry: 1
+      Data: pose
+    - Name: slotType
+      Entry: 7
+      Data: 4|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: BetterAnimationPipeline.Pose, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|BetterAnimationPipeline.NodeSlot, Assembly-CSharp
+    - Name: nodeID
+      Entry: 3
+      Data: 0
+    - Name: slotID
+      Entry: 3
+      Data: 1
+    - Name: direction
+      Entry: 3
+      Data: 1
+    - Name: displayName
+      Entry: 1
+      Data: Pose
+    - Name: fieldName
+      Entry: 1
+      Data: outputPose
+    - Name: slotType
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <Playable>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: id
+      Entry: 3
+      Data: 0
+    - Name: pose
+      Entry: 6
+      Data: 
+    - Name: playableOutput
+      Entry: 7
+      Data: UnityEngine.Animations.AnimationPlayableOutput, UnityEngine.AnimationModule
+    - Name: m_Handle
+      Entry: 7
+      Data: UnityEngine.Playables.PlayableOutputHandle, UnityEngine.CoreModule
+    - Name: m_Handle
+      Entry: 3
+      Data: 0
+    - Name: m_Version
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|BetterAnimationPipeline.SampleAnimationNode, Assembly-CSharp
+    - Name: outputPose
+      Entry: 6
+      Data: 
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -260
+    - Name: 
+      Entry: 4
+      Data: -134
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: typeName
+      Entry: 1
+      Data: BetterAnimationPipeline.SampleAnimationNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - Name: slots
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[BetterAnimationPipeline.NodeSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 8|BetterAnimationPipeline.NodeSlot, Assembly-CSharp
+    - Name: nodeID
+      Entry: 3
+      Data: 1
+    - Name: slotID
+      Entry: 3
+      Data: 0
+    - Name: direction
+      Entry: 3
+      Data: 2
+    - Name: displayName
+      Entry: 1
+      Data: clip
+    - Name: fieldName
+      Entry: 1
+      Data: clip
+    - Name: slotType
+      Entry: 7
+      Data: 9|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: UnityEngine.AnimationClip, UnityEngine.AnimationModule
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|BetterAnimationPipeline.NodeSlot, Assembly-CSharp
+    - Name: nodeID
+      Entry: 3
+      Data: 1
+    - Name: slotID
+      Entry: 3
+      Data: 1
+    - Name: direction
+      Entry: 3
+      Data: 1
+    - Name: displayName
+      Entry: 1
+      Data: Pose
+    - Name: fieldName
+      Entry: 1
+      Data: outputPose
+    - Name: slotType
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <Playable>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: id
+      Entry: 3
+      Data: 1
+    - Name: clip
+      Entry: 10
+      Data: 0
+    - Name: playable
+      Entry: 7
+      Data: UnityEngine.Animations.AnimationClipPlayable, UnityEngine.AnimationModule
+    - Name: m_Handle
+      Entry: 7
+      Data: UnityEngine.Playables.PlayableHandle, UnityEngine.CoreModule
+    - Name: m_Handle
+      Entry: 3
+      Data: 0
+    - Name: m_Version
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: edges
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[BetterAnimationPipeline.Edge, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 12|BetterAnimationPipeline.Edge, Assembly-CSharp
+    - Name: to
+      Entry: 9
+      Data: 3
+    - Name: from
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: unityReferences
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[UnityEngine.Object, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: animator
+      Entry: 6
+      Data: 
+  unityReferences:
+  - {fileID: 7400000, guid: f24aa47263ec9422680819602494c334, type: 2}
+  animator: {fileID: 0}
